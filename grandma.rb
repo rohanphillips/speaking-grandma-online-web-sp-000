@@ -14,7 +14,8 @@
 
 def speak_to_grandma(message)
   puts message
-  if message == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
+  case message
+    when "I LOVE YOU GRANDMA!"
+      return "I LOVE YOU TOO PUMPKIN!"
   end
 end
